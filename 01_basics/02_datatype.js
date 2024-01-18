@@ -12,8 +12,6 @@ let state
 // null =>standalone value
 // undefined=>
 // symbol=> unique
-
-
 // object
 console.log(typeof undefined)// undefiend
 console.log(typeof null)// object
