@@ -67,3 +67,25 @@ potential runtime errors if not handled carefully. Static typing, on the
        Function  =>  function
        Object  =>  object
        */
+//****************************************************************************************************************** */
+
+
+// memory
+// stack(primitive),heap(non-primitive)
+//stack== copy of original value
+// heap==refrence of original value
+
+let myname = "anand"
+let anothername=myname
+anothername= "jha"
+console.log(myname)
+console.log(anothername) // because it a primitve datatype and another name is copy and not refrenece of my name
+
+let userone ={
+    email: "a@b.com",
+    upi: "u@pi.com"
+}
+let usertwo=userone
+usertwo.email="jha@email.com"
+console.log(userone.email)
+console.log(usertwo.email)
