@@ -22,7 +22,7 @@ const bignumber=223334444448439393n // declaearing big int for large numebers
 /*JavaScript is a dynamically typed language. This means that variable
  types are determined at runtime, and you do not need to explicitly declare 
  the type of a variable before using it. You can assign different types 
- of values to a variable during its lifetime.
+ of values to a variable during its lifetime.cc
 
 For example, in JavaScript, you can do the following:
 
