@@ -36,3 +36,4 @@ jsuser.greetingtwo = function(){
 //console.log(jsuser.greeting) // undefind [Function (anonymous)]
 console.log(jsuser.greeting()) // give error becuse we freeze it initially but now after commenting it is giving hello js user
 console.log(jsuser.greetingtwo()) // hello js user anand
+//
